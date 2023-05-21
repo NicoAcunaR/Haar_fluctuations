@@ -9,7 +9,7 @@ This repository contains a Python function to estimate Haar fluctuations on non-
 - Fabrice Lambert
 - Shaun Lovejoy
 
-### Informe
+### Report
 This function was developed as part of a MSc research project. You can find it [here](GEOGRAPHIC VARIABILITY OF DUST AND TEMPERATURE IN MACROWEATHER AND CLIMATE SCALING REGIMES.pdf).
 
 ### Example Notebook
