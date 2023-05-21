@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
+'''
+Import required libraries 
+'''
 
 import pandas as pd
 import numpy as np
@@ -16,8 +17,10 @@ font = {'family' : 'serif','weight' : 'ultralight','size'   : 14}
 mtpl.rc('font', **font)
 
 
-# In[2]:
 
+'''
+Function definition
+'''
 
 def timeSince(since):
     now = time.time()
@@ -137,13 +140,10 @@ def Haar_RMS_fluctuations(t,x):
     
 
 
-# In[5]:
-
-
 '''
 Import and read file
 File: EDC 800ky B.P. Temperatures
--We filter it roughly to the LGC (130ky B.P.)
+-Filtered to the LGC (130ky B.P.)
 '''
 file='EDC_DeutTemp.xlsx'
 df_data=pd.read_excel(file)
@@ -171,14 +171,11 @@ plt.show()
 print('Samples: ',len(age_cut))
 
 
-# In[7]:
 
-
+'''
+Run the function and plot the result
+'''
 [time_scales,fluctuations]=Haar_RMS_fluctuations(age_cut,Value_cut)
-
-
-# In[8]:
-
 
 plt.subplots(figsize=(15, 7))
 plt.plot(time_scales,fluctuations,color='#3f7776',linewidth=4,label='Log Fluctuations RMS')
@@ -187,16 +184,6 @@ plt.ylabel(r'$Log_{10}S_2(\Delta t)^{1/2}$',fontsize=18)
 plt.legend()
 plt.grid()
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
