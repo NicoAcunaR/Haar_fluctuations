@@ -2,17 +2,16 @@
 This repository contains a Python function to estimate Haar fluctuations on non-equidistant datasets and a .xlsx file to test it.
 
 **author**:
-- Nicolás Acuña Reyes
+- Nicolás Acuña Reyes (nmacuna@uc.cl)
 
 **collaborators**:
-- Elwin Van't Wout
-- Fabrice Lambert
-- Shaun Lovejoy
+- Elwin Van't Wout (e.wout@uc.cl)
+- Fabrice Lambert (lambert@uc.cl)
+- Shaun Lovejoy (lovejoy@physics.mcgill.ca)
 
 ### Report
-This function was developed as part of a MSc research project. You can find it [here](GEOGRAPHIC VARIABILITY OF DUST AND TEMPERATURE IN MACROWEATHER AND CLIMATE SCALING REGIMES.pdf).
+This function was developed as part of a MSc research project. You can find more about it [here].
 
 ### Example Notebook
-You can rund and test the function using our Haar-RMS notebook
-
+Test and run the function using our Haar-RMS notebook. 
 1. [Haar-RMS](Haar-RMS.ipynb)
