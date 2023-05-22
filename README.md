@@ -10,7 +10,7 @@ This repository contains a Python function to estimate Haar fluctuations on non-
 - Shaun Lovejoy (lovejoy@physics.mcgill.ca)
 
 ### Report
-This function was developed as part of a MSc research project. You can find more about it [here].
+This function was developed as part of a MSc research project. You can find more about it [here](Report/DRAFT_Geographic variability of dut and temperature in macroweather and climate scaling regimes.pdf).
 
 ### Example Notebook
 Test and run the function using our Haar-RMS notebook. 
